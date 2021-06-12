@@ -1,19 +1,20 @@
 # Deep Learning In The Sheets
 
-A repository of google-sheets that aim to demystify and simplify deep learning concepts.
+A repository of google-sheets that aim to demystify and simplify deep learning concepts through visualization.
 
 ## Contents
 
 ```
-1.  Backpropagation
-2.  Normalization
+1. Backpropagation
+2. Normalization
+3. Receptive Field Calculation
 ```
 
 ## 01. Backpropagation
 
 !["Backpropagation file screenshot."](./01_backpropagation/backprop.png)
 
-You can download the `.xlsx` file from the `./01_backpropagation/backprop.xlsx` or view the [google sheet](https://docs.google.com/spreadsheets/d/1zfsvxzpdxHdwX4QAY6n6gpKvafgM4mwG-QgZj3uF09U/edit?usp=sharing).
+You can download the `.xlsx` file from `./01_backpropagation/backpropagation.xlsx` or view the [google sheet](https://docs.google.com/spreadsheets/d/1zfsvxzpdxHdwX4QAY6n6gpKvafgM4mwG-QgZj3uF09U/edit?usp=sharing).
 
 The sheet contains an example to train a deep neural network in excel. There are 2 major parts in it -
 
@@ -123,11 +124,11 @@ Increasing the learning leads to faster convergence in 100 epochs. The total err
 - LR = 2.0
   ![LearningRate=0.1](./01_backpropagation/lr_2_0.png)
 
-## Norm Calculations in Deep Learning
+## 02. Norm Calculations in Deep Learning
 
 !["norm calc cnn"](./02_normalization/norm_calc.png)
 
-You can download the `.xlsx` file from the `./02_normalization/norm_calc.xlsx` or view the [google sheet](https://docs.google.com/spreadsheets/d/1OJsXJQAmDBcwJIMQ0f07bmqp3Wj9lL8tBwlXZ0vkKDM/edit?usp=sharing).
+You can download the `.xlsx` file from `./02_normalization/norm_calc.xlsx` or view the [google sheet](https://docs.google.com/spreadsheets/d/1OJsXJQAmDBcwJIMQ0f07bmqp3Wj9lL8tBwlXZ0vkKDM/edit?usp=sharing).
 
 In this file, we try to visualize the following norms commonly used in deep learning architectures.
 
@@ -136,3 +137,11 @@ In this file, we try to visualize the following norms commonly used in deep lear
 3. Layer Normalization
 
 In batch-norm, we calculate the mean and variance statistics for each channel across a mini-batch. The case is opposite for layer-norm, where we calculate the mean/variance statistics for each batch across the channel. Finally, group-norm is similar to layer-norm except for the fact that we break our channels into groups and calculate the mean/variance statistics for each group separately.
+
+## 03. Receptive Field Calculation
+
+!["receptive field"](./03_receptive_field/receptive_field.png)
+
+You can download the `.xlsx` file from `./03_receptive_field/receptive_field.xlsx` or view the [google sheet](https://docs.google.com/spreadsheets/d/1C9SaWjEQGumzyb3XqEBo5XmcydNNfWmlmrHPOD2bstc/edit?usp=sharing).
+
+This sheet contains receptive field calculations for a few common operations found in Convolutional Neural Networks along with calculations done for VGG-16 and ResNet-18 networks.
