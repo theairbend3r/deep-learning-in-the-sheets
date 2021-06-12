@@ -2,6 +2,13 @@
 
 A repository of google-sheets that aim to demystify and simplify deep learning concepts.
 
+## Contents
+
+```
+1.  Backpropagation
+2.  Normalization
+```
+
 ## 01. Backpropagation
 
 !["Backpropagation file screenshot."](./01_backpropagation/backprop.png)
