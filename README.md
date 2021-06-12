@@ -1,6 +1,6 @@
 # Deep Learning In The Sheets
 
-A repository of google-sheets that aim to demystify and simplify deep learning concepts through visualization.
+A repository of google-sheets that aim to demystify deep learning concepts through visualization.
 
 ## Contents
 
